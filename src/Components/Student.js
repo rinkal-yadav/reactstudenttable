@@ -6,7 +6,6 @@ import TableCell from '@mui/material/TableCell';
 import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
-import Paper from '@mui/material/Paper';
 import { NavLink } from 'react-router-dom';
 
 import {useContext} from 'react';
@@ -14,7 +13,7 @@ import {StudentContext} from './StudentContext';
 
 
 function Student() {
-  const [rows,setRows] = useContext(StudentContext);
+  const [rows] = useContext(StudentContext);
 
 
   return (
@@ -28,7 +27,7 @@ function Student() {
         <button className="add-student-btn"><NavLink to="/students-desc" style={{ textDecoration: "none", color: "black" }}> Add Student</NavLink></button>
       </div>
         
-<TableContainer >
+<TableContainer  >
       <Table  sx={{ maxWidth: 900 }} className='table-main' >
               <TableHead>
                   <TableRow>
