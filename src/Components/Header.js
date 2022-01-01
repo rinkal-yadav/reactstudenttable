@@ -5,9 +5,9 @@ function Header() {
     return (
         <div className='Header'>
                     
-                            <span className='color'> <Link to='/home'>Home</Link></span>
-                            <span className='color'> <Link to='/student'>Students</Link></span>
-                            <span className='color'> <Link to='/contact'>Contact Us</Link></span>
+                            <span > <Link className='color' to='/home' >Home</Link></span>
+                            <span > <Link className='color' to='/student' >Students</Link></span>
+                            <span > <Link className='color' to='/contact' >Contact Us</Link></span>
 
                     
 

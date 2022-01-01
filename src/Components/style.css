@@ -20,7 +20,8 @@ body{
 
 
 .color{
-    text-decoration-color: white;
+    text-decoration: none;
+    font-size: 25px;
     font-weight: 600;
     font-style: italic;
 }
